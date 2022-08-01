@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-28T09:48:00.664Z",
+        "line": 4,
+        "name": "Successul Get API Rest Call",
+        "description": "",
+        "id": "get-rest-call;successul-get-api-rest-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1868559000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Base URL",
+            "match": {
+              "location": "Rest_API_Steps.launch_the_Base_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11651623800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Provide Service Details \u0026 Provide the Method Name with All Inputs",
+            "match": {
+              "location": "Rest_API_Steps.user_Provide_Service_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1950200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Print The Response Body",
+            "match": {
+              "location": "Rest_API_Steps.print_The_Response_Body()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7154157700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validdate Status Codes Header And Response Body",
+            "match": {
+              "location": "Rest_API_Steps.validdate_Status_Codes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestAPIGetCall"
+          },
+          {
+            "name": "@RestRegression"
+          }
+        ]
+      }
+    ],
+    "name": "Get Rest Call",
+    "description": "",
+    "id": "get-rest-call",
+    "keyword": "Feature",
+    "uri": "file:Features/RestAPI_GET_Request.feature",
+    "tags": []
+  }
+]
